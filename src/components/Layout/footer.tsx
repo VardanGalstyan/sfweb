@@ -86,6 +86,7 @@ const navigation = {
     },
     {
       name: "YouTube",
+
       href: "#",
       icon: (props: SocialLink) => (
         <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
@@ -100,9 +101,9 @@ const navigation = {
   ],
 };
 
-export default function Navbar() {
+export default function Footer() {
   return (
-    <footer className="bg-white" aria-labelledby="footer-heading">
+    <div className="bg-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
@@ -189,6 +190,6 @@ export default function Navbar() {
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 }
