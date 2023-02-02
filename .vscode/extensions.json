@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "nrwl.angular-console",
+    "esbenp.prettier-vscode",
+    "firsttris.vscode-jest-runner",
+    "dbaeumer.vscode-eslint",
+    "aaron-bond.better-comments",
+    "bradlc.vscode-tailwindcss",
+    "chakrounanas.turbo-console-log",
+    "dsznajder.es7-react-js-snippets",
+    "mikestead.dotenv"
+  ]
+}
