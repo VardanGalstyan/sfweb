@@ -1,7 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Layout from "../components/Layout";
-import Blogs from '../components/Blogs'
+import Layout from "../../components/Layout";
+import Blogs from '../../components/Blogs'
 
 const BlogPage: NextPage = () => {
   return (
@@ -12,7 +12,7 @@ const BlogPage: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <Blogs/>
+            <Blogs/>
       </Layout>
     </>
   );
