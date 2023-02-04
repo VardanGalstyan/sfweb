@@ -1,20 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 /* eslint @typescript-eslint/no-var-requires: "off" */
 
+const colors = require("tailwindcss/colors");
 
-const colors = require('tailwindcss/colors')
-  
-  module.exports = {
+module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {  
+    extend: {
       colors: {
-          'warm-gray': colors.stone,
-          teal: colors.teal,
-        }},
+        "warm-gray": colors.stone,
+        teal: colors.teal,
+      },
+    },
   },
   plugins: [
     //...
     require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
   ],
 };
