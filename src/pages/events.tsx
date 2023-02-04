@@ -1,11 +1,9 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import ContactUs from "../components/ContactUs";
-import Hero from "../components/Home/Hero";
+import Events from '../components/Events';
 import Layout from "../components/Layout";
 
-
-const Home: NextPage = () => {
+const EventsPage: NextPage = () => {
   return (
     <>
       <Head>
@@ -14,13 +12,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <>
-          <Hero/>
-          <ContactUs />
-        </>
+       <Events/>
       </Layout>
     </>
   );
 };
 
-export default Home;
+export default EventsPage;

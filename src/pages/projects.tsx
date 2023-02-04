@@ -1,11 +1,10 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import ContactUs from "../components/ContactUs";
-import Hero from "../components/Home/Hero";
 import Layout from "../components/Layout";
+import Projects from "../components/Projects";
 
-
-const Home: NextPage = () => {
+const ProjectsPage: NextPage = () => {
   return (
     <>
       <Head>
@@ -14,13 +13,10 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>
-        <>
-          <Hero/>
-          <ContactUs />
-        </>
+        <Projects/>
       </Layout>
     </>
   );
 };
 
-export default Home;
+export default ProjectsPage;
