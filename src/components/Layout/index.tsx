@@ -1,5 +1,5 @@
 import { type ReactElement } from "react";
-import Footer from "./Footer";
+import Footer from "./TestFooter";
 import Header from "./Header";
 
 interface LayoutProps {
