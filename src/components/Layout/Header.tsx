@@ -1,10 +1,10 @@
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import useScroll from "../../hooks/useScroll";
 import { classNames } from "../../utils/classNames";
+import MainLogo from "../UI/Logos/MainLogo";
 import { navigation } from "./navigation";
 
 export default function Header() {
@@ -46,12 +46,9 @@ export default function Header() {
                 </div>
                 <div className="flex flex-1 items-center justify-center  sm:items-stretch sm:justify-between">
                   <div className="flex flex-shrink-0 items-center">
-                    <Image
-                      src={"/sftransplogo.png"}
-                      alt="logo"
-                      width={70}
-                      height={40}
-                    />
+                    <Link href="/" className="-m-1.5 p-1.5">
+                      <MainLogo dark />
+                    </Link>
                   </div>
                   <div className="hidden sm:ml-6 sm:block">
                     <div className="flex space-x-4">
