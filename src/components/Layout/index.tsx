@@ -1,9 +1,10 @@
+import { type ReactElement } from "react";
+import Footer from "./Footer";
 import Header from "./Header";
-import Footer from "./footer";
-import type { ReactElement } from "react";
 
 interface LayoutProps {
   children: ReactElement;
+  hasNoFixedHeader?: boolean;
 }
 
 const Layout = ({ children }: LayoutProps) => {
