@@ -10,6 +10,10 @@ module.exports = {
       colors: {
         "warm-gray": colors.stone,
         teal: colors.teal,
+        sGreen: "#00c970",
+        shGreen: "#00c590",
+        sDark: "#191921",
+        sGrey: "#ffffff",
       },
     },
   },
