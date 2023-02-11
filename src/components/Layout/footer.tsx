@@ -101,7 +101,7 @@ const navigation = {
   ],
 };
 
-export default function Footer() {
+const Footer = () => {
   return (
     <div className="bg-white" aria-labelledby="footer-heading">
       <h2 id="footer-heading" className="sr-only">
@@ -192,4 +192,6 @@ export default function Footer() {
       </div>
     </div>
   );
-}
+};
+
+export default Footer;
